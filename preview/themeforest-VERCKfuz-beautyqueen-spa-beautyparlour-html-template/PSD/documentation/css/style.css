@@ -1,0 +1,41 @@
+a{text-decoration:none !important;}
+.head {
+  text-align: center;
+}
+.head h1{
+  color: #81be17;
+}
+.head .btn {
+  border:2px solid transparent;
+  background: #81be17 none repeat scroll 0 0;
+  color: #fff;
+  padding: 5px 15px;
+}
+.g-info {
+  padding-top: 80px;
+}
+.g-info > h3 {
+  color: #81be17;
+  border-bottom: 2px solid #1b1b1b;
+  display: table;
+}
+.head .btn:hover {
+  border:2px solid #81be17;
+  background:none;
+  color: #81be17;
+}
+.g-info > p {
+  color: #5a5a5a;
+}
+ul li {
+  color: #81be18;
+}
+ul li a{
+  color: #5a5a5a;
+}
+ul li a:hover{
+  color: #81be18;
+}
+span {
+  color: #5a5a5a;
+}
