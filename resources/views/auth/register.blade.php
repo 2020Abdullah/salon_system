@@ -28,7 +28,7 @@
                                 <input id="password-confirm" type="password" class="form-control" placeholder="Confirm password" name="password_confirmation">
                             </div>
                             <button type="submit" class="btn shade f-primary btn-block">Submit</button>
-                        </form>                     
+                        </form>  
                     @endif
                 </div>
             </div>

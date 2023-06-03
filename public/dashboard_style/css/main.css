@@ -2514,6 +2514,20 @@ body.dark {
   color: white;
 }
 
+.table-action {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.submit_btn {
+  width: 200px;
+  margin: auto;
+}
+.submit_btn .btn-custom {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+}
 /* .dark .avam-container .navbar.navbar-light {
   background: linear-gradient(0deg, #7b89a9, #a4b9e3);
 } */

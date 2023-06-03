@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{asset('dashboard_style/css/toastr.min.css')}}">
     <link rel="stylesheet" href="{{ asset('dashboard_style/css/main.css') }}">
 </head>
-<body>
+<body class="rtl">
 	<!-- dashboard structure
 	===========================================-->
     <div class="bmd-layout-canvas">

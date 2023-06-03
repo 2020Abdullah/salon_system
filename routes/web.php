@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\EmployeesController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\DashboardController;
@@ -38,6 +39,14 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
     Route::middleware('auth')->group(function () {
         Route::get("/dashboard", [DashboardController::class, 'admin'])->name('dashboard');
+
+        // employee Routes
+        Route::get("employees", [EmployeesController::class, 'index'])->name('employee.index');
+        Route::get("employee/new", [EmployeesController::class, 'add'])->name('employee.add');
+        Route::post("employee/store", [EmployeesController::class, 'store'])->name('employee.store');
+        Route::get("employee/edit/{id}", [EmployeesController::class, 'edit'])->name('employee.edit');
+        Route::post("employee/update", [EmployeesController::class, 'update'])->name('employee.update');
+        Route::get("employee/destory/{id}", [EmployeesController::class, 'destory'])->name('employee.destory');
     });
 });
 
@@ -53,6 +62,6 @@ Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('google.valid');
 
 
-// Auth::routes();
+Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

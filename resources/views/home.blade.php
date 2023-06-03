@@ -160,7 +160,7 @@
 		<div class="container">
 			<div class="row">
 				<nav class="navbar navbar-expand-lg navbar-light w-100"> 
-					<a class="navbar-brand p_0" href="#top"><img src="images/logo/logo.png" alt="logo"></a>
+					<a class="navbar-brand p_0" href="#top"><img src="{{ asset('home_style/images/logo/logo.png') }}" alt="logo"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
@@ -187,7 +187,7 @@
 	<div id="slider" style="width:100%;height:100vh;">	
 		<!-- Slide 1-->
 		<div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; timeshift:-500; deeplink:home; kenburnszoom:in; kenburnsrotate:0; kenburnsscale:1.1; parallaxevent:scroll; parallaxdurationmove:500;">
-			<img style="width:100%; height:100%;" src="images/slider/01.jpg" class="ls-bg" alt="slider image" />
+			<img style="width:100%; height:100%;" src="{{ asset('home_style/images/slider/01.jpg') }}" class="ls-bg" alt="slider image" />
 			<div style="width:100%; height:100%; background:rgba(0, 0, 0, 0.35); top:50%; left:50%;" class="ls-l" data-ls="durationout:400; parallaxlevel:0; position:fixed;"></div>
 			<p style="font-weight:900; text-align:center; width:100%; text-transform: uppercase; font-family:'Raleway', sans-serif; font-size:50px; line-height:60px; color:#ffffff; top:330px; left:50%;" class="ls-l" data-ls="offsetyin:40; delayin:150; easingin:easeOutQuint; offsetyout:-200; durationout:400; parallax:true; parallaxlevel:3;">We feel Your <span class="color-primary">Body Requirments</span></p>	
 
@@ -199,7 +199,7 @@
 
 		<!-- Slide 2-->
 		<div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:latest-works; kenburnszoom:out; kenburnsrotate:0; kenburnsscale:1.1; parallaxtype:3d; parallaxevent:scroll; parallaxdurationmove:500; parallaxrotate:4;">
-			<img style="width:100%; height:100%;" src="images/slider/02.jpg" class="ls-bg" alt="slider image" />
+			<img style="width:100%; height:100%;" src="{{ asset('home_style/images/slider/02.jpg') }}" class="ls-bg" alt="slider image" />
 			<div style="width:100%; height:100%; background:rgba(0, 0, 0, 0.35); top:0%; left:0%;" class="ls-l" data-ls="durationout:400; parallaxlevel:0; position:fixed;"></div>
 			<p style="font-weight:900; text-align:center; width:100%; text-transform: uppercase; font-family:'Raleway', sans-serif; font-size:50px; line-height:60px; color:#ffffff; top:330px; left:50%;" class="ls-l" data-ls="offsetyin:40; delayin:150; easingin:easeOutQuint; offsetyout:-200; durationout:400; parallax:true; parallaxlevel:3;">Creative team to make <span class="color-primary"> you Special</span></p>		
 			<p style="font-weight:300; text-align:center; width:850px; letter-spacing: 2px; font-family:'Raleway', sans-serif; font-size:18px; line-height:30px; color:#ffffff; top:400px; left:50%; white-space:normal;" class="ls-l" data-ls="offsetyin:40; delayin:300; easingin:easeOutQuint; offsetyout:-250; durationout:400; parallax:true; parallaxlevel:2;">Thing moved Dry were divided likeness fly multiply sea cattle man creature. Them lights. Created, dominion replenish seed night also.</p>
@@ -209,7 +209,7 @@
 
 		<!-- Slide 3-->
 		<div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:contact-us; kenburnszoom:in; kenburnsscale:1.2; parallaxevent:scroll;">
-			<img style="width:100%; height:100%;" src="images/slider/03.jpg" class="ls-bg" alt="slider image" />		
+			<img style="width:100%; height:100%;" src="{{ asset('home_style/images/slider/023.jpg') }}" class="ls-bg" alt="slider image" />		
 			<div style="width:100%; height:100%; background:rgba(0, 0, 0, 0.35); top:0%; left:0%;" class="ls-l" data-ls="durationout:400; parallaxlevel:0; position:fixed;"></div>
 			<p style="font-weight:900; text-align:center; width:100%; text-transform: uppercase; font-family:'Raleway', sans-serif; font-size:50px; line-height:60px; color:#ffffff; top:330px; left:50%;" class="ls-l" data-ls="offsetyin:40; delayin:150; easingin:easeOutQuint; offsetyout:-200; durationout:400; parallax:true; parallaxlevel:3;">We Keep Your Body <span class="color-primary">Soft and Smooth</span></p>		
 			<p style="font-weight:300; text-align:center; width:850px; letter-spacing: 2px; font-family:'Raleway', sans-serif; font-size:18px; line-height:30px; color:#ffffff; top:400px; left:50%; white-space:normal;" class="ls-l" data-ls="offsetyin:40; delayin:300; easingin:easeOutQuint; offsetyout:-250; durationout:400; parallax:true; parallaxlevel:2;">Thing moved Dry were divided likeness fly multiply sea cattle man creature. Them lights. Created, dominion replenish seed night also.</p>

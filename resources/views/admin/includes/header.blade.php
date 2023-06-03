@@ -67,13 +67,13 @@
                     </div>
                 </div>
             </li>
-            <li class="nav-item"> <img src="./img/user-profile.jpg" alt="..."
-                    class="rounded-circle screen-user-profile"></li>
+            {{-- <li class="nav-item"> <img src="./img/user-profile.jpg" alt="..."
+                    class="rounded-circle screen-user-profile"></li> --}}
             <li class="nav-item">
                 <div class="dropdown">
                     <button class="btn  dropdown-toggle m-0" type="button" id="dropdownMenu4"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        majid
+                        {{ auth('web')->user()->name }}
                     </button>
                     <div aria-labelledby="dropdownMenu4"
                         class="dropdown-menu dropdown-menu-right dropdown-menu dropdown-menu-right"
