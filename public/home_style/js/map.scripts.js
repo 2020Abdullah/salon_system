@@ -15,7 +15,7 @@ function init() {
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(-37.815207, 144.963937),
 		map: map,
-		icon: './images/map-marker.png',
+		icon: './home_style/images/map-marker.png',
 		title: 'Themetrading !'
 	});
 }

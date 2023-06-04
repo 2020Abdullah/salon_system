@@ -82,18 +82,16 @@ $("a").on('click', function(event) {
   $window.on("scroll",function () {
 
     var bodyScroll = $window.scrollTop(),
-      navbar = $(".nav-on-top"),
-      logo = $(".navbar .navbar-brand> img");
+      navbar = $(".nav-on-top");
+      // logo = $(".navbar .navbar-brand> img");
 
     if(bodyScroll > 100){
 
       navbar.addClass("fixed-header");
-      logo.attr('src', 'images/logo/logo.png');
 
     }else{
 
       navbar.removeClass("fixed-header");
-      logo.attr('src', 'images/logo/logo.png');
     }
   });
 

@@ -209,7 +209,7 @@
 
 		<!-- Slide 3-->
 		<div class="ls-slide" data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:contact-us; kenburnszoom:in; kenburnsscale:1.2; parallaxevent:scroll;">
-			<img style="width:100%; height:100%;" src="{{ asset('home_style/images/slider/023.jpg') }}" class="ls-bg" alt="slider image" />		
+			<img style="width:100%; height:100%;" src="{{ asset('home_style/images/slider/03.jpg') }}" class="ls-bg" alt="slider image" />		
 			<div style="width:100%; height:100%; background:rgba(0, 0, 0, 0.35); top:0%; left:0%;" class="ls-l" data-ls="durationout:400; parallaxlevel:0; position:fixed;"></div>
 			<p style="font-weight:900; text-align:center; width:100%; text-transform: uppercase; font-family:'Raleway', sans-serif; font-size:50px; line-height:60px; color:#ffffff; top:330px; left:50%;" class="ls-l" data-ls="offsetyin:40; delayin:150; easingin:easeOutQuint; offsetyout:-200; durationout:400; parallax:true; parallaxlevel:3;">We Keep Your Body <span class="color-primary">Soft and Smooth</span></p>		
 			<p style="font-weight:300; text-align:center; width:850px; letter-spacing: 2px; font-family:'Raleway', sans-serif; font-size:18px; line-height:30px; color:#ffffff; top:400px; left:50%; white-space:normal;" class="ls-l" data-ls="offsetyin:40; delayin:300; easingin:easeOutQuint; offsetyout:-250; durationout:400; parallax:true; parallaxlevel:2;">Thing moved Dry were divided likeness fly multiply sea cattle man creature. Them lights. Created, dominion replenish seed night also.</p>
@@ -230,7 +230,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-lg-6">
-					<img src="images/about/woman-large.png" alt="image not found">
+					<img src="{{ asset('home_style/images/about/woman-large.png') }}" alt="image not found">
 				</div>
 				<div class="col-md-7 col-lg-6">
 					<div class="text-area">
@@ -259,7 +259,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-4">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/1.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/1.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -278,7 +278,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-4">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/2.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/2.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -297,7 +297,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-4">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/3.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/3.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -316,7 +316,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-5">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/4.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/4.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -335,7 +335,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-5">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/5.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/5.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -354,7 +354,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="service-widget mb-5">
 						<div class="service-image overflow-hidden">
-							<img src="images/services/6.jpg" alt="bodymassage">
+							<img src="{{asset('home_style/images/services/6.jpg')}}" alt="bodymassage">
 						</div>
 						<div class="service-iconprice">
 							<div class="ser-icon bg-gradient icon-font-30 color-white">
@@ -409,8 +409,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/1.jpg" data-fancybox="gallery">
-										<img src="images/gallery/1.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/1.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/1.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -422,8 +422,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/2.jpg" data-fancybox="gallery">
-										<img src="images/gallery/2.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/2.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/2.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -435,8 +435,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/3.jpg" data-fancybox="gallery">
-										<img src="images/gallery/3.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/3.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/3.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -448,8 +448,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/4.jpg" data-fancybox="gallery">
-										<img src="images/gallery/4.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/4.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/4.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -461,8 +461,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/5.jpg" data-fancybox="gallery">
-										<img src="images/gallery/5.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/5.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/5.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -474,8 +474,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/6.jpg" data-fancybox="gallery">
-										<img src="images/gallery/6.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/6.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/6.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -487,8 +487,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/7.jpg" data-fancybox="gallery">
-										<img src="images/gallery/7.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/7.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/7.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -500,8 +500,8 @@
 							<!--Default Portfolio Item-->
 							<div class="row">
 								<div class="default-portfolio-item">
-									<a href="images/gallery/8.jpg" data-fancybox="gallery">
-										<img src="images/gallery/8.jpg" alt="image" />
+									<a href="{{asset('home_style/images/gallery/8.jpg')}}" data-fancybox="gallery">
+										<img src="{{asset('home_style/images/gallery/8.jpg')}}" alt="image" />
 										<div class="overlay-box">
 											<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
 										</div>
@@ -532,7 +532,7 @@
 			  <div class="col-md-6 col-lg-3">
 				<div class="team-widget bg-white mb-4">
 				  <div class="team-image">
-					<img src="images/team/1.jpg" alt="Team image 1">
+					<img src="{{ asset('home_style/images/team/1.jpg') }}" alt="Team image 1">
 					<div class="teamimg-overlay"></div>
 					<div class="member-data">
 					  <h4>Victor Sandra</h4>
@@ -568,7 +568,7 @@
 			  <div class="col-md-6 col-lg-3">
 				<div class="team-widget bg-white mb-4">
 				  <div class="team-image">
-					<img src="images/team/2.jpg" alt="Team image 1">
+					<img src="{{ asset('home_style/images/team/2.jpg') }}" alt="Team image 2">
 					<div class="teamimg-overlay"></div>
 					<div class="member-data">
 					  <h4>Victor Sandra</h4>
@@ -604,7 +604,7 @@
 			  <div class="col-md-6 col-lg-3">
 				<div class="team-widget bg-white mb-4">
 				  <div class="team-image">
-					<img src="images/team/3.jpg" alt="Team image 1">
+					<img src="{{ asset('home_style/images/team/3.jpg') }}" alt="Team image 3">
 					<div class="teamimg-overlay"></div>
 					<div class="member-data">
 					  <h4>Asha zimba</h4>
@@ -640,7 +640,7 @@
 			  <div class="col-md-6 col-lg-3">
 				<div class="team-widget bg-white mb-4">
 				  <div class="team-image">
-					<img src="images/team/4.jpg" alt="Team image 1">
+					<img src="{{ asset('home_style/images/team/4.jpg') }}" alt="Team image 4">
 					<div class="teamimg-overlay"></div>
 					<div class="member-data">
 					  <h4>anna osinkina</h4>
@@ -713,7 +713,7 @@
 			  	<div class="col-md-6 col-lg-3">
 					<div class="price-table mb-4">
 					  <div class="pricing-img">
-						<img src="images/price/1.jpg" alt="Price Image 1">
+						<img src="{{ asset('home_style/images/price/1.jpg') }}" alt="Price Image 1">
 					  </div>
 
 					  <div class="price bg-gradient text-center py-2 color-black"><strong>$ 35</strong> <span>per <sub>month</sub></span></div>
@@ -735,7 +735,7 @@
 			  	<div class="col-md-6 col-lg-3">
 					<div class="price-table mb-4">
 					  <div class="pricing-img">
-						<img src="images/price/2.jpg" alt="Price Image 1">
+						<img src="{{ asset('home_style/images/price/2.jpg') }}" alt="Price Image 2">
 					  </div>
 
 					  <div class="price bg-gradient text-center py-2 color-black"><strong>$ 55</strong> <span>per <sub>month</sub></span></div>
@@ -757,7 +757,7 @@
 			  	<div class="col-md-6 col-lg-3">
 					<div class="price-table mb-4">
 					  <div class="pricing-img">
-						<img src="images/price/3.jpg" alt="Price Image 1">
+						<img src="{{ asset('home_style/images/price/3.jpg') }}" alt="Price Image 3">
 					  </div>
 
 					  <div class="price bg-gradient text-center py-2 color-black"><strong>$ 70</strong> <span>per <sub>month</sub></span></div>
@@ -779,7 +779,7 @@
 			  	<div class="col-md-6 col-lg-3">
 					<div class="price-table mb-4">
 					  <div class="pricing-img">
-						<img src="images/price/4.jpg" alt="Price Image 1">
+						<img src="{{ asset('home_style/images/price/4.jpg') }}" alt="Price Image 4">
 					  </div>
 
 					  <div class="price bg-gradient text-center py-2 color-black"><strong>$ 95</strong> <span>per <sub>month</sub></span></div>
@@ -832,7 +832,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="blog-widget bg-white mb-4">
 						<div class="blog-image overflow-hidden">
-						  <img src="images/blog/1.jpg" alt="Blog image 1">
+						  <img src="{{ asset('home_style/images/blog/1.jpg') }}" alt="Blog image 1">
 						</div>
 						<div class="blog-data p-4">
 						  <span class="date bg-gradient py-2 px-5 d-inline-block color-black">10 June 19</span>
@@ -851,7 +851,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="blog-widget bg-white mb-4">
 						<div class="blog-image overflow-hidden">
-						  <img src="images/blog/2.jpg" alt="Blog image 1">
+						  <img src="home_style/images/blog/2.jpg" alt="Blog image 2">
 						</div>
 						<div class="blog-data p-4">
 						  <span class="date bg-gradient py-2 px-5 d-inline-block color-black">12 June 19</span>
@@ -870,7 +870,7 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="blog-widget bg-white mb-4">
 						<div class="blog-image overflow-hidden">
-						  <img src="images/blog/3.jpg" alt="Blog image 1">
+						  <img src="home_style/images/blog/3.jpg" alt="Blog image 3">
 						</div>
 						<div class="blog-data p-4">
 						  <span class="date bg-gradient py-2 px-5 d-inline-block color-black">15 June 19</span>
@@ -906,7 +906,7 @@
 					<div class="testimonial-item owl-carousel">
 						<div class="client">
 							<div class="avater">
-							  <img src="images/client/1.jpg" alt="client image 1">
+							  <img src="{{ asset('home_style/images/client/1.jpg') }}" alt="client image 1">
 							</div>
 							<h5 class="client_name pt-3 color-black">Natalia Ivanova</h5>
 							<div class="star d-inline-block color-primary">
@@ -924,7 +924,7 @@
 						</div>
 						<div class="client">
 							<div class="avater">
-							  <img src="images/client/2.jpg" alt="client image 2">
+							  <img src="{{ asset('home_style/images/client/2.jpg') }}" alt="client image 2">
 							</div>
 							<h5 class="client-name pt-3 color-black">Liubov Metodieva</h5>
 							<div class="star d-inline-block color-primary">
@@ -942,7 +942,7 @@
 						</div>
 						<div class="client">
 							<div class="avater">
-							  <img src="images/client/3.jpg" alt="client image 3">
+							  <img src="{{ asset('home_style/images/client/3.jpg') }}" alt="client image 3">
 							</div>
 							<h5 class="client-name pt-3 color-black">Hemishgr Mariey</h5>
 							<div class="star d-inline-block color-primary">
