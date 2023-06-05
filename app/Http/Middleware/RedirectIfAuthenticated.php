@@ -24,8 +24,16 @@ class RedirectIfAuthenticated
         foreach ($guards as $guard) {
 
             if (Auth::guard($guard)->check()) {
-                if ($request->is('admin/*')) {
+                //Write code for redirect both for admin or front in case login alerdy done
+                if($request->is('admin') || $request->is('admin/*')){
+                    //return backend
                     return redirect(RouteServiceProvider::ADMIN);
+                }elseif($request->is('employer') || $request->is('employer/*')){
+                    //return frontend
+                    // return redirect(RouteServiceProvider::HOME); // if there is frontend
+                    return redirect(RouteServiceProvider::Employer);
+                }else{
+                    return 'bbb';
                 }
             }
         }

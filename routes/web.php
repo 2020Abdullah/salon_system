@@ -18,50 +18,52 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
+// Route::get('/', function () {
+//     return view('home');
+// });
+
 
 /* 
 ======================
 admin routes
 ======================
 */
-Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
+// Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
-    Route::middleware('guest')->group(function () {
-        Route::get("/register", [RegisterController::class, 'admin_show_form'])->name('register');
-        Route::post("/register", [RegisterController::class, 'admin_register'])->name('register');
+//     Route::middleware('guest')->group(function () {
+//         Route::get("/register", [RegisterController::class, 'admin_show_form'])->name('register');
+//         Route::post("/register", [RegisterController::class, 'admin_register'])->name('register');
 
-        Route::get("/login", [LoginController::class, 'admin_form_login'])->name('login');
-        Route::post("/login", [LoginController::class, 'admin_login'])->name('login');
-    });
+//         Route::get("/login", [LoginController::class, 'admin_form_login'])->name('login');
+//         Route::post("/login", [LoginController::class, 'admin_login'])->name('login');
+//     });
 
-    Route::middleware('auth')->group(function () {
-        Route::get("/dashboard", [DashboardController::class, 'admin'])->name('dashboard');
+//     Route::middleware('auth')->group(function () {
+//         Route::get("/dashboard", [DashboardController::class, 'admin'])->name('dashboard');
 
-        // employee Routes
-        Route::get("employees", [EmployeesController::class, 'index'])->name('employee.index');
-        Route::get("employee/new", [EmployeesController::class, 'add'])->name('employee.add');
-        Route::post("employee/store", [EmployeesController::class, 'store'])->name('employee.store');
-        Route::get("employee/edit/{id}", [EmployeesController::class, 'edit'])->name('employee.edit');
-        Route::post("employee/update", [EmployeesController::class, 'update'])->name('employee.update');
-        Route::get("employee/destory/{id}", [EmployeesController::class, 'destory'])->name('employee.destory');
-    });
-});
+//         // employee Routes
+//         Route::get("employees", [EmployeesController::class, 'index'])->name('employee.index');
+//         Route::get("employee/new", [EmployeesController::class, 'add'])->name('employee.add');
+//         Route::post("employee/store", [EmployeesController::class, 'store'])->name('employee.store');
+//         Route::get("employee/edit/{id}", [EmployeesController::class, 'edit'])->name('employee.edit');
+//         Route::post("employee/update", [EmployeesController::class, 'update'])->name('employee.update');
+//         Route::get("employee/destory/{id}", [EmployeesController::class, 'destory'])->name('employee.destory');
+//     });
+// });
 
-Route::post("/logout", [LoginController::class, 'logout'])->name('logout');
+// Route::post("/logout", [LoginController::class, 'logout'])->name('logout');
 
-/* 
-======================
-google with login routes
-======================
-*/
+// /* 
+// ======================
+// google with login routes
+// ======================
+// */
 
-Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('google.login');
-Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('google.valid');
+// Route::get('auth/google', [GoogleController::class, 'redirectToGoogle'])->name('google.login');
+// Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback'])->name('google.valid');
 
 
-Auth::routes();
+// Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
